@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel=STYLESHEET href="questao_2.css" type="text/css"> <!-- CSS Externo -->
+        <title>Questão 2</title>
+
+        <!-- CSS interno -->
+        <style>
+            .duplicar_S {
+                font-size: 2em;
+                color: deeppink
+            }
+
+            .h1_sem_negrito{
+                font-weight: normal;
+                color: green
+            }
+            span:not(.duplicar_S){  /* Not */
+                color: red
+            }
+            a:hover {  /* Pseudo */
+                font-size: 1.9em; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <span class ="duplicar_S">S</span>egunda Questão
+        </h1>
+        <hr>
+        <div style=" border-radius: 10px; border: 5px groove"> <!-- CSS Inline -->
+            <br>
+            <span class = "span_cor_vermelha">Vocês deverão utilizar CSS interno + inline + externo nessa questão</span>
+            <br>
+            <h1 class ="h1_sem_negrito"> Também deverão utilizar <b>pseudos</b> aonde acharem cabível</h1>
+            <div style=" border-radius: 10px; border: 2px groove">
+                a borda que coloquei foi a groove, mas podem usar a de sua preferência
+
+                <h1 class ="h1_sem_negrito"> e não podemos deixar de fora a utilização de um <mark>not</mark></h1>
+
+            </div>
+        </div>
+        <br><br>
+        <A HREF="index.html">Retornar à página Principal. <br> (ao passar o mouse por cima, dobrar o tamanho)</A> <br>
+    </body>
+</html>

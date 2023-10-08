@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de QR Code</title>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <style>
+        #qrcode {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+        }
+        body 
+        {
+            background-color: #f0f0f0;
+        }
+    </style>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top_bar">
+            Trabalho N2
+        </div class = "origin">
+            <center>
+                <br>
+                <img src="https://macae.rj.gov.br/midia/noticias/34313/1430221487.jpg" width="160" height="108">
+                <br>
+                <br>
+                <h1 class="title">Gerador de QR Code</h1>
+                <label for="link">Digite o link:</label>
+                <input type="text" id="link">
+                <button onclick="gerarQRCode()">Gerar QR Code</button>
+            </center>
+        <div id="qrcode"></div>
+    
+        <script src="script.js"></script>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div class="group">
+            Grupo: João Victor, Gabriel Gurgel, Ramon Galhardo e Matheus Nunes
+        </div>
+    </div>
+</body>
+</html>

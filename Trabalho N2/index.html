@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Calculadora_HTML</title>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="visor" readonly>
+        <div class="buttons">
+        <button onclick="mostrarVisor(7)">7</button>
+        <button onclick="mostrarVisor(8)">8</button>
+        <button onclick="mostrarVisor(9)">9</button>
+        <button style="background-color: rgb(171, 171, 244);" onclick="definirOperacao('/')">/</button>
+        <button onclick="mostrarVisor(4)">4</button>
+        <button onclick="mostrarVisor(5)">5</button>
+        <button onclick="mostrarVisor(6)">6</button>
+        <button style="background-color: rgb(171, 171, 244);" onclick="definirOperacao('*')">*</button>
+        <button onclick="mostrarVisor(1)">1</button>
+        <button onclick="mostrarVisor(2)">2</button>
+        <button onclick="mostrarVisor(3)">3</button>
+        <button style="background-color: rgb(171, 171, 244);" onclick="definirOperacao('-')">-</button>
+        <button style="background-color: rgb(244, 171, 171);" onclick="limparVisor()">C</button>
+        <button onclick="mostrarVisor(0)">0</button>
+        <button style="background-color: orange;" onclick="calcular()">=</button>
+        <button style="background-color: rgb(171, 171, 244);" onclick="definirOperacao('+')">+</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
